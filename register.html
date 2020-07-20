@@ -29,13 +29,19 @@
             </nav>
             
    </header>
-
-   <h4 class="welcome">
-       
-        Create your own Yoga story, choose your character, your adeventures, and of course your yoga's posture!!! 
-
-   <h4>
-        
-    
+   <main class="container p-5">
+    <form action="/register" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password">
+        </div>
+         <div class="form-group">
+            <input class="form-control" name="confirmation" placeholder="Repeat Password" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+   </main>           
 </body>
 </html>

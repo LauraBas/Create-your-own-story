@@ -1,0 +1,41 @@
+.form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+    justify-content: center;
+   
+}
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+body{
+    background-color: cornsilk;
+}
+.bg-light {
+    background-color: antiquewhite!important;
+}
+.navbar-light .navbar-brand{
+    color: #00008bd6;
+}
+.btn-primary{
+    background-color: #00008bd6;
+    border-color: #00008bd6;
+}
+a{
+    color: #00008bd6;
+    font-weight: bolder;
+}
+.welcome{
+    margin: 25px;
+    color: cornflowerblue;
+    text-align: center;
+    font-family: monospace;
+}
